@@ -10,7 +10,7 @@ plt.xlabel('Money')
 plt.ylabel('Happiness')
 plt.show()
 
-#Construct the polynomial model using polyfit
+#Construct the polynomial model using polyfit. 4 passed in the polyfit function is the degree of the polynomial
 x=np.array(money)
 y=np.array(happiness)
 p4=np.poly1d(np.polyfit(x, y, 4))
